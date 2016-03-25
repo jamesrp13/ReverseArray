@@ -10,7 +10,10 @@ func reverseArray(array: [Int]) -> [Int] {
         newArray.append(array[i])
         
     }
+    
     return newArray
+    
+    
 }
 reverseArray([2, 4, 43, 99])
 
@@ -21,4 +24,4 @@ func anotherReverseArray(array: [Int]) -> [Int] {
     }
     return newArray
 }
-anotherReverseArray([99, 38, 8])
+anotherReverseArray([99, 38, 8, 38, 489])
